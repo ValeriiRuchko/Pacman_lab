@@ -1,6 +1,6 @@
-function Empty() {
+function Empty(props) {
     return(
-        <div className="empty"></div>
+        <div className={props.className}></div>
     );
 }
 

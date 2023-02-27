@@ -1,6 +1,6 @@
-function Pacman() {
+function Pacman(props) {
     return(
-        <div className="pac-man"></div>
+        <div className={props.className}></div>
     );
 }
 
